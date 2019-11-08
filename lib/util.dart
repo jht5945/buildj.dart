@@ -20,7 +20,7 @@ void stdout_print(s) {
 }
 
 void stdout_println(s) {
-  stdout.write(s+ NEW_LINE);
+  stdout.write(s + NEW_LINE);
 }
 
 void log_info(m) {
