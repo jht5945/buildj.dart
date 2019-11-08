@@ -11,6 +11,9 @@ void main(List<String> args) async {
   if (build_json == null) {
     return;
   }
+  final build_json_content = await build_json.readAsString();
+
+  stdout_println(build_json_content);
 
   stdout_println('// TODO: Hello World: $build_json');
 }
