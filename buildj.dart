@@ -3,7 +3,7 @@
 import 'dart:io';
 import 'lib/util.dart';
 
-void main(List<String> args) async {
+main(List<String> args) async {
   log_info('buildj - version 0.1');
   log_info('Arguments: $args');
 
